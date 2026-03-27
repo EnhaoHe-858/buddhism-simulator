@@ -1,5 +1,5 @@
 export function getPageStyle(started, theme) {
-  const isMobile = typeof window !== "undefined" && window.innerWidth <= 768;
+  const isMobile = typeof window !== "undefined" && window.innerWidth <= 900;
 
   return {
     minHeight: "100vh",
